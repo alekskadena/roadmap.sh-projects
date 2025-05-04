@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(5, 5, 5);
+    color: rgb(161, 161, 161);
+    font-family: Outfit, Roboto, sans-serif;
+    margin: 0px;
+}
+
+.headers{
+    font-family: Outfit, Robot, sans-serif;
+    color: rgb(222, 222, 222);
+}
+
+a{
+    font-size: 1.5vw;
+    color: orangered;
+    text-decoration: none;
+    border-bottom: 1px solid orangered;
+}
+
+#navbar{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 3px solid rgb(222, 222, 222);
+    height: 10vh;
+}
+
+#navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+
+}
+
+#navname{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#navdiv h3{
+    font-size: 3vw;
+    padding: 5px;
+}
+
+#navdiv h3::first-letter{
+    font-size: 3.2vw;
+    color: orangered;
+}
+
+#navdiv li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Outfit, Roboto, sans-serif;
+}
+
+section{
+    background-image: url(/Frontend/assets/images/Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    height:max-content;
+    padding: 0;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1{
+    font-size: 10vw;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+section p{
+    background-color: orangered;
+    width: 100%;
+    color:black;
+    text-align: center;
+    font-size: 2vw;
+    font-family: Outfit, Roboto, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 3px solid rgb(222, 222, 222);
+}
+
+.main-divs{
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgb(222, 222, 222);
+    overflow: hidden;
+}
+
+.main-divs h1{
+    font-size: 2.5vw;
+}
+
+footer{
+    border-top: 3px solid rgb(222, 222, 222);
+}
+
+footer h1{
+    display: block;
+    margin: 0 auto;
+    font-size: 3vw;
+    background-color: orangered;
+    border-radius: 5em;
+    padding: 0.5em 1em;
+    width: fit-content;
+    color: black;
+    margin-top: 100px;
+}
+
+#footer-div1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+
+.cards{
+    border: 3px solid rgb(222, 222, 222);
+    width: 20vw;
+    border-radius: 2em;
+    padding: 20px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.cards h3{
+    font-size: 2vw;
+    color: orangered;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+}
+.cards p{
+    font-style: italic;
+    border-bottom: 0.5px solid rgb(161, 161, 161);
+    margin-bottom: 5vh;
+}
+
+#footer-div2{
+    text-align: right;
+    padding: 10px;
+
+}
+
+#projects-div{
+    text-align: center;
+}
+
+#projects-div h1{
+    font-size: 5vw;
+}
+#projects-div li{
+    list-style: none;
+    font-size: 2vw;
+}
+#projects-div h3{
+    font-size: 2vw;
+}
+#articles-div{
+    text-align: center;
+}
+
+#articles-div h1{
+    font-size: 5vw;
+}
+#articles-div li{
+    list-style: none;
+    font-size: 3vw;
+}
+#articles-div h3{
+    font-size: 2vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form button{
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 0.5em;
+    border: none;
+    cursor: pointer;
+}
+
+
+form label{
+    font-size: 25px;
+}
+form input{
+    padding: 10px 15px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: Outfit, Roboto, sans-serif;
+    color: orangered;
+    border-radius: 0.3em;
+}
+
